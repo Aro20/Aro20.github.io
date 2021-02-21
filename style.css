@@ -1,0 +1,62 @@
+body{
+    font-family: "Monserrat", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    line-height: 1.6;
+    font-weight: 500;
+    width: 100%;
+    margin: 0;
+}
+.header{
+   display: flex;
+   align-content: center;
+   height: 300px;
+   background-color: #2251b2;
+   margin: auto;
+   padding: 40px;
+   padding-bottom: 0;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
+}
+
+.header .pdp{
+    margin: 30px 40px;
+}
+
+.header .Nom{
+    margin-left: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Montserrat Light";
+}
+
+.contact{
+    margin-left: 430px;
+}
+section{
+    display: flex;
+}
+
+.section1{
+    width: 35%;
+    background: #fbfbfb;
+    padding: 10px;
+}
+
+.section2{
+    width: 65%;
+    padding: 10px;
+}
+
+li{
+    padding: 5px 0;
+}
+
+.module{
+    list-style: none;
+    font-size: 14px;
+}
+
+footer{
+    text-align: center;
+    color: red;
+}
