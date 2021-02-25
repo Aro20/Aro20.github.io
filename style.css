@@ -9,17 +9,18 @@ body{
 }
 .header{
    display: flex;
-   align-content: center;
+   align-items: center;
    height: 300px;
    background-color: #2251b2;
-   margin: auto;
    padding: 40px;
    padding-bottom: 0;
    box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
+   width: auto;
 }
 
 .header .pdp{
-    margin: 30px 40px;
+    margin: 0px 40px;
+    margin-top: 150px;
 }
 
 .header .Nom{
@@ -34,6 +35,7 @@ body{
 }
 section{
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .section1{
@@ -59,4 +61,40 @@ li{
 footer{
     text-align: center;
     color: red;
+}
+
+@media only screen and (max-width: 925px){
+    .header .Nom{
+        font-size: 17px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 740px){
+    .header{
+        display: inline-block;
+        height: auto;
+        
+    }
+    .header .pdp{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header .Nom{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact{
+        margin: auto;
+    }
+    section{
+        display: inline-block;
+        width: 100%;
+    }
+    .section1, .section2{
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+    }
 }
